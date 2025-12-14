@@ -1,0 +1,49 @@
+/* Element Selector */
+ body { 
+    font-family: 'Open Sans', sans-serif;     
+     
+}  
+
+h1 { 
+    color: #2c3e50; /* Kode Hex */     
+    text-align: center; 
+    font-size: 3em;
+
+}  
+
+p { 
+    font-size: 1.1em; 
+    color: #4c5f70; /* Kode RGB */
+    line-height: 1.8;
+ } 
+ 
+/* Class Selector */ 
+.sub-judul {     
+    color: darkgreen;
+    text-decoration: underline;    
+     font-weight: bold;    
+      text-align: left; 
+} 
+ 
+.highlight { 
+    background-color: yellow; 
+    font-size: 1.1em; /* Ukuran relatif terhadap parent */ } 
+ 
+/* ID Selector */ #info-penting { 
+    border: 2px solid #156ac0;    
+    padding: 15px; 
+    margin: 20px auto; /* Margin atas/bawah 20px, kiri/kanan auto (tengah) */ 
+    width: 60%; /* Lebar elemen */     
+    text-align: justify; 
+} 
+ 
+#info-penting p {    
+     color: #555;     
+     font-style: italic; 
+} 
+ 
+#info-penting a {     
+    color: blue; 
+    text-decoration: none; /* Menghilangkan garis bawah tautan */     
+    font-weight: bold; 
+} 
