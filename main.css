@@ -1,0 +1,4 @@
+h1 {color: rgb(146, 5, 5);     text-align: center; } 
+p { font-size: 18px;     color: rgb(41, 43, 57); } 
+button { background-color: rgba(22, 183, 102, 0.568); 
+color: white;     padding: 10px 10px;     border: none;     cursor: pointer; } 
